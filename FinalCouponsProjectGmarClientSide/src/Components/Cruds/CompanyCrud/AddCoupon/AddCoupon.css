@@ -1,0 +1,44 @@
+.add-coupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-upload {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the image covers the container without distorting */
+    border-radius: 10px; /* Optional: round the corners */
+    border: 2px solid #ccc; /* Optional: add border to the image */
+}
+
+.url-input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

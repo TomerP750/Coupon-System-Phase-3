@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background-color: #2b2424;
+}
+
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center the form content */
+  border: 1px solid green;
+}
+
+.white-input .MuiInputBase-root {
+  background-color: transparent;  /* No background color */
+  color: white;  /* White text */
+  border: 1px solid #444;  /* Dark border */
+}
+
+.white-input .MuiInputLabel-root {
+  color: white;  /* White label text */
+}
+
+.white-input .MuiOutlinedInput-notchedOutline {
+  border-color: #444;  /* Dark border color */
+}
+
+/* Green border when input is focused */
+.white-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #2C8F2B;  /* Green border on focus */
+}
+
+.white-input .MuiInputBase-input::placeholder {
+  color: white;  /* White placeholder text */
+}
+
+/* Button Styles */
+.submit-button {
+  background-color: #2C8F2B;  /* Green button */
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;  /* Button border radius */
+}
+
+.submit-button:hover {
+  background-color: #267624;  /* Darker green on hover */
+}
+
+/* Label Shrink Effect on Focus */
+.white-input .MuiInputLabel-root.Mui-focused {
+  color: #2C8F2B; /* Green color for label when focused */
+  transform: translate(0, -1.5em) scale(0.75); /* Shrink and move label up */
+}
+
+/* Centering text and button */
+.text-field-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Filters and coupons*/
+
+
+.filter-and-coupons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* Ensures space between filter and coupons grid */
+  margin-top: 10px;
+}
+
+/* Filter container */
+.filter-container {
+  flex: 0 1 auto; /* Fixed width for filter container */
+  margin-right: 0; /* Reduced margin on the right */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align elements to the left */
+  padding-right: 0px; /* Remove the extra right padding */
+  height: 100%; /* Ensure it takes full height, avoiding extra space */
+  box-sizing: border-box; /* Ensure padding and margin are included in the width/height calculation */
+}
+
+/* Slider style (fixed width) */
+.slider {
+  width: 200px; /* Keep the slider at a fixed width */
+}
+
+/* Dropdown style */
+.dropdown {
+  width: 200px; /* Fixed width for dropdown to match the slider */
+  padding: 8px;
+  margin-top: 10px;
+}
+
+/* Grid container for coupons */
+.coupons-grid {
+  flex: 3 1 900px; /* Takes the remaining space and is flexible */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start; /* Ensures alignment of the grid items */
+}
+
+/* Ensuring that the filter container and items within don't shrink or expand */
+.filter-container select,
+.filter-container input {
+  flex-shrink: 0; /* Prevent shrinking */
+  flex-grow: 0; /* Prevent expanding */
+}
+
+

@@ -1,0 +1,72 @@
+.CompanyCard {
+	
+}
+
+
+.CompanyCard {
+    width: fit-content;          /* Fixed width */
+    height: fit-content;         /* Fixed height */
+    background-color: #2c2c2c;
+    color: white;
+    padding: 10px;         /* Padding inside the card */
+    box-sizing: border-box; /* Ensures padding is included in the width/height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spacing between the content */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;      /* Ensures any overflowing content is hidden */
+}
+
+/* Material UI Card body override */
+/*.MuiCard-root {*/
+/*    background-color: #1c1c1c !important; !* Ensure the root card background is dark *!*/
+/*    color: #f0f0f0 !important; !* Light text color *!*/
+/*}*/
+
+.CompanyCard button {
+    width: auto;            /* Button width adjusts based on content */
+    padding: 8px 16px;      /* Padding to make the button fit */
+    margin-top: 10px;       /* Space between the button and other content */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;  /* Ensures padding is inside the button's size */
+}
+
+
+/* Styling for headings (h1, h2, etc.) */
+.CompanyCard h1,
+.CompanyCard h2,
+.CompanyCard h3 {
+    margin: 12px 0; /* Add margin between each heading element */
+    color: #fff; /* White text for headings */
+}
+
+.CompanyCard h1 {
+    font-size: 1.5rem; /* Larger font size for the title */
+    color: #00bfae; /* Light teal/green for the title */
+}
+
+.CompanyCard h2 {
+    font-size: 1.25rem;
+}
+
+.CompanyCard h3 {
+    font-size: 1rem;
+    color: #d0d0d0; /* Light gray color for description */
+}
+
+.CompanyCard .deleteButton {
+    background-color: #831717;
+}
+
+
+.CompanyCard .editButton {
+    background-color: #c1be07;
+}
+
+.card-button {
+    margin-bottom: 10px;
+}

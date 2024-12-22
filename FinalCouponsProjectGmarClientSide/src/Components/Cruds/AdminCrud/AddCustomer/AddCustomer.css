@@ -1,0 +1,67 @@
+.AddCustomer {
+
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center the form content */
+    border: 1px solid green;
+}
+
+.white-input .MuiInputBase-root {
+    background-color: transparent;  /* No background color */
+    color: white;  /* White text */
+    border: 1px solid #444;  /* Dark border */
+}
+
+.white-input .MuiInputLabel-root {
+    color: white;  /* White label text */
+}
+
+.white-input .MuiOutlinedInput-notchedOutline {
+    border-color: #444;  /* Dark border color */
+}
+
+/* Green border when input is focused */
+.white-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #2C8F2B;  /* Green border on focus */
+}
+
+.white-input .MuiInputBase-input::placeholder {
+    color: white;  /* White placeholder text */
+}
+
+/* Button Styles */
+.submit-button {
+    background-color: #2C8F2B;  /* Green button */
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;  /* Button border radius */
+}
+
+.submit-button:hover {
+    background-color: #267624;  /* Darker green on hover */
+}
+
+/* Label Shrink Effect on Focus */
+.white-input .MuiInputLabel-root.Mui-focused {
+    color: #2C8F2B; /* Green color for label when focused */
+    transform: translate(0, -1.5em) scale(0.75); /* Shrink and move label up */
+}
+
+/* Centering text and button */
+.text-field-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

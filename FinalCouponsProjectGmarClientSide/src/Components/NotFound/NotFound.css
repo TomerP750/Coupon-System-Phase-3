@@ -1,0 +1,29 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* To make the container fill the whole viewport height */
+}
+
+.go-home-button {
+    position: absolute; /* Position the button absolutely within the container */
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Adjust button to be centered */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2C8F2B; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.go-home-button:hover {
+    background-color: #393a39; /* Darken button on hover */
+}
+
+.NotFound h1 {
+    font-family: "Lucida Handwriting","sans-serif";
+    font-size: 6rem;
+    color: #00c853;
+}

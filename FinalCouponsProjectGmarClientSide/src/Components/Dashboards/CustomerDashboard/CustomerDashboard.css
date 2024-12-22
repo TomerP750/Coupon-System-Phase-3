@@ -1,0 +1,85 @@
+.CustomerDashboard {
+    display: flex;
+}
+
+.CustomerDashboard {
+    display: flex; /* Arrange the items in a row */
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Space between the items */
+    color: white; /* Set text and icons to white */
+    font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-out; /* Apply fade-in animation */
+    margin-top: 12%; /* Push the content down */
+}
+
+/* Style for each dashboard item */
+.dashboard-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack the icon and text vertically */
+    align-items: center; /* Center the items horizontally */
+    opacity: 0; /* Initially hidden */
+    animation: fadeInItem 2s forwards; /* Fade-in each item with delay */
+    transition: all 0.3s ease-in-out; /* Smooth transition for color change */
+    cursor: pointer; /* Make the whole item clickable */
+    margin: 20px;
+}
+
+/* Ensure the icon inherits the color from the parent */
+.icon {
+    font-size: 8rem; /* Adjusted icon size */
+    transition: color 0.3s ease-in-out; /* Smooth transition for icon color */
+}
+
+/* Remove default blue link color for NavLink and make it white by default */
+.nav-link {
+    font-size: 3rem; /* Adjust text size */
+    color: white; /* Set default color to white */
+    text-decoration: none; /* Remove underline */
+    margin-top: 15px;
+    transition: color 0.3s ease-in-out; /* Smooth transition for text color */
+}
+
+
+/* Change the color to green when hovering over the entire dashboard item */
+.dashboard-item:hover {
+    color: #4caf50; /* Change the color to green on hover */
+}
+
+/* Hover effect for NavLink (when hovering over the link) */
+.nav-link:hover {
+    color: #4caf50; /* Change text color to green on hover */
+}
+
+/* Fade-in animation for the entire dashboard */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start from invisible */
+        transform: translateY(10px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1; /* Fade in to full opacity */
+        transform: translateY(0); /* End at original position */
+    }
+}
+
+/* Fade-in animation for each dashboard item */
+@keyframes fadeInItem {
+    0% {
+        opacity: 0; /* Start from invisible */
+        transform: translateY(10px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1; /* Fade in to full opacity */
+        transform: translateY(0); /* End at original position */
+    }
+}
+
+.dashboard-item:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.dashboard-item:nth-child(2) {
+    animation-delay: 1s;
+}

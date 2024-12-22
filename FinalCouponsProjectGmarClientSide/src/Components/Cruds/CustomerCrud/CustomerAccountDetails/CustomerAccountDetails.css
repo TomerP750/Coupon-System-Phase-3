@@ -1,0 +1,72 @@
+.CustomerAccountDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+
+}
+
+.account-box {
+    background-color: #1e1e1e; /* Dark gray background for the account box */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 450px; /* Maximum width to keep it clean and not too wide */
+    text-align: center;
+}
+
+/* Account details title */
+.account-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #00c853; /* Bright green for the title */
+    font-weight: bold;
+}
+
+/* Account info container */
+.account-info {
+    text-align: left; /* Align the account details to the left */
+    color: #d1d1d1; /* Light gray color for text */
+}
+
+/* Individual account info items */
+.account-item {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between; /* Space out the label and the value */
+}
+
+/* Labels (First Name, Last Name, Email) */
+.account-item strong {
+    color: #00c853; /* Green for the labels */
+    font-weight: bold;
+}
+
+/* Account values (user's data) */
+.account-item span {
+    color: #b0b0b0; /* Lighter gray for the account values */
+}
+
+/* Hover effect on account items */
+.account-item:hover {
+    background-color: #333333; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+    cursor: pointer;
+    padding: 0.5rem; /* Padding on hover for better interaction */
+}
+
+/* Smooth fade-in animation for the account box */
+.account-box {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

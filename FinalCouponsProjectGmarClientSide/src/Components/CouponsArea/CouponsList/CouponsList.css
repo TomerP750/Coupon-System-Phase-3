@@ -1,0 +1,91 @@
+/*.CouponsList {*/
+
+/*.filter-container {*/
+/*    width: 250px; !* Adjust the width *!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px; !* Space between elements *!*/
+/*    padding: 20px;*/
+/*    border-radius: 8px; !* Rounded corners *!*/
+/*    background-color: #2c2c2c; !* Dark background for the container *!*/
+/*    color: white; !* White text *!*/
+/*}*/
+
+/*!* Style for the slider *!*/
+/*.slider {*/
+/*    -webkit-appearance: none; !* Remove default styles *!*/
+/*    width: 100%; !* Full width of the container *!*/
+/*    height: 8px;*/
+/*    background: #333; !* Darker background for the track *!*/
+/*    border-radius: 4px; !* Rounded corners *!*/
+/*    outline: none;*/
+/*    transition: background 0.3s ease; !* Smooth transition on hover *!*/
+/*}*/
+
+/*.slider::-webkit-slider-thumb {*/
+/*    -webkit-appearance: none; !* Remove default thumb styles *!*/
+/*    appearance: none;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    border-radius: 50%;*/
+/*    background-color: #4CAF50; !* Green color for the thumb *!*/
+/*    cursor: pointer;*/
+/*    border: none;*/
+/*    transition: background-color 0.3s ease; !* Smooth thumb color transition *!*/
+/*}*/
+
+/*!* Hover state for the slider track *!*/
+/*.slider:hover {*/
+/*    background: #444; !* Slightly lighter dark background *!*/
+/*}*/
+
+/*!* Hover state for the slider thumb *!*/
+/*.slider::-webkit-slider-thumb:hover {*/
+/*    background-color: #45a049; !* Slightly darker green *!*/
+/*}*/
+
+/*!* Focus state for the slider thumb *!*/
+/*.slider:focus::-webkit-slider-thumb {*/
+/*    background-color: #388E3C; !* Focused green color *!*/
+/*}*/
+
+/*!* Price display *!*/
+/*.filter-container p {*/
+/*    font-size: 14px;*/
+/*    margin-top: 10px;*/
+/*    color: white; !* Ensure price text is white *!*/
+/*}*/
+
+/*!* Style for the dropdown (select element) *!*/
+/*.dropdown {*/
+/*    padding: 8px 12px;*/
+/*    font-size: 14px;*/
+/*    color: white;*/
+/*    background-color: #333; !* Dark background for the dropdown *!*/
+/*    border: 1px solid #388E3C; !* Green border *!*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    outline: none;*/
+/*    transition: border-color 0.3s ease; !* Smooth border transition *!*/
+/*}*/
+
+/*!* Hover state for the dropdown *!*/
+/*.dropdown:hover {*/
+/*    border-color: #4CAF50; !* Green border on hover *!*/
+/*}*/
+
+/*!* Focus state for the dropdown *!*/
+/*.dropdown:focus {*/
+/*    border-color: #4CAF50; !* Green border when focused *!*/
+/*}*/
+
+/*!* Style for dropdown options *!*/
+/*.dropdown option {*/
+/*    background-color: #333; !* Dark background for the options *!*/
+/*    color: white; !* White text color *!*/
+/*}*/
+
+/*.dropdown option:hover {*/
+/*    background-color: #4CAF50; !* Highlight option with green on hover *!*/
+/*}*/
+
