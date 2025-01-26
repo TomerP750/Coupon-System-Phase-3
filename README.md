@@ -73,7 +73,7 @@ To get this project up and running locally, follow these steps:
 Once the system is running, you can interact with the application:
 
 - **Create coupons**
-- **Redeem coupons**
+- **Buy Coupons**
 - **View and manage coupons** (Admin functionality)
 
 ## Technologies
