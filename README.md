@@ -18,11 +18,10 @@ Coupon System Phase 3 is a Full Stack system designed to manage coupons, validat
 
 ## Features
 
-- **User Coupon Creation**: Allows users to create coupons.
+- **User Coupon Purcase**: Allows users to purchase coupons.
 - **Coupon Redemption**: Users can redeem valid coupons for discounts.
 - **Admin Panel**: Admins can manage, modify, and track coupons.
 - **Coupon Validation**: Validates coupon codes and ensures their legitimacy.
-- **Discount Calculation**: Applies appropriate discounts to user purchases.
 
 ## Installation
 
